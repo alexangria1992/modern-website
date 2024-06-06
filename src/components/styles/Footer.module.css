@@ -1,0 +1,30 @@
+.footerSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  border-top: 1px solid rgb(71, 85, 105);
+  padding-right: 4rem;
+  padding-left: 4rem;
+  padding-top: 1.7rem;
+  padding-bottom: 1.7rem;
+}
+
+.navList {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navLinks {
+  display: inline-flex;
+  min-height: 2.75rem;
+  /* border-width: 1px; */
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .footerSection {
+    flex-direction: row;
+  }
+}
